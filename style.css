@@ -60,6 +60,8 @@ main section header button:hover{
 }
 
 
+
+/*Datos a reemplazar por la api     */
 main section .visor{
     height: 60%;
     margin: .5em;
@@ -67,6 +69,43 @@ main section .visor{
     border-radius: 15px 15px 15px 60px;
 }
 
+main section .visor p{
+    display: inline-block;
+    width: 40%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: .5em 0 0 0 ;
+    font-size: .7em;
+}
+
+
+main section .visor div:nth-child(3){
+    display: inline-block;
+    width: 50%;
+    height: 10em;
+    background-image:url(pikachu.jpeg);
+    background-size: 150%;
+    background-position-x: 40%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-top: 1em;
+
+}
+
+main section .visor div:nth-child(4){
+    display: inline-block;
+    width: 40%;
+    height: 10em;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/*input y button para buscar*/
 main section footer{
     padding: 0 .5em .5em .5em;
 }
