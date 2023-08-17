@@ -2,4 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all .5s;
+}
+
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+
+main section{
+    width: 60%em;
+    height: 80%;
+    background-color: red;
+    text-align: center;
+    border-radius:15px;
+}
+
+main section footer{
+    text-align: start;
+    padding: .5em;
+    border-bottom: 4px solid black;
+}
+main section footer button:first-child{
+    width: 6em;
+    height: 6em;
+    background: rgb(0, 255, 255,80%);
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+main section footer button{
+    width: 2em;
+    height: 2em;
+    background: blue;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+main section footer button:nth-child(3){
+    background: yellow;
+}
+
+main section footer button:nth-child(4){
+    background: green;
+}
+
+main section footer button:hover{
+    opacity: 60%;
+
 }
