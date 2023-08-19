@@ -18,7 +18,7 @@ main{
 
 
 main section{
-    width: 60%em;
+    width: 60%;
     height: 80%;
     background-color: red;
     text-align: center;
@@ -48,6 +48,7 @@ main section header button{
 
 main section header button:nth-child(3){
     background: yellow;
+
 }
 
 main section header button:nth-child(4){
@@ -72,10 +73,11 @@ main section .visor{
 main section .visor p{
     display: inline-block;
     width: 40%;
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255,70%);
     border-radius: 15px;
     margin: .5em 0 0 0 ;
     font-size: .7em;
+    box-shadow:  5px 5px 5px 2px black;
 }
 
 
@@ -83,13 +85,26 @@ main section .visor div:nth-child(3){
     display: inline-block;
     width: 50%;
     height: 10em;
-    background-image:url(pikachu.jpeg);
-    background-size: 150%;
-    background-position-x: 40%;
-    background-repeat: no-repeat;
+    background-color: red;
     border-radius: 20px;
     margin-top: 1em;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 2px black;
+    position: relative;
+  
+}
 
+
+main section .visor div:nth-child(3) img{
+    position: absolute;
+    width: 7em;
+    height: 7em;
+    top: 1.2em;
+    left: .3em;
+    border-radius: 50%;
+    object-fit: cover ;
+  
+   
 }
 
 main section .visor div:nth-child(4){
@@ -98,9 +113,28 @@ main section .visor div:nth-child(4){
     height: 10em;
     background-color: blueviolet;
     border-radius: 10px;
+   position: relative;
+   box-shadow: 5px 5px 5px 2px black;
+   
+   
 }
 
 
+
+main section .visor div:nth-child(4) div{
+    position: absolute;
+    display: grid;
+    place-items: center;
+}
+
+main section .visor div:nth-child(4) p{
+   display: block;
+   width: 80%;
+   margin-top: .6em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px black;
+   
+}
 
 
 
@@ -111,6 +145,7 @@ main section footer{
 }
 
 main section footer input{
+    width: 70%;
     text-align: center;
     border-radius: 10px;
     background: yellow;
