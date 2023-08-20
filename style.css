@@ -14,6 +14,8 @@ main{
     place-items: center;
     margin: 0 auto;
     background-color: aqua;
+    
+   
 }
 
 
@@ -23,6 +25,7 @@ main section{
     background-color: red;
     text-align: center;
     border-radius:15px;
+    border: 4px solid black;
 }
 
 main section header{
@@ -73,11 +76,13 @@ main section .visor{
 main section .visor p{
     display: inline-block;
     width: 40%;
-    background-color: rgb(240, 248, 255,70%);
+    background-color: none;
     border-radius: 15px;
     margin: .5em 0 0 0 ;
     font-size: .7em;
-    box-shadow:  5px 5px 5px 2px black;
+    border-bottom: 1px solid black;
+  
+   
 }
 
 
@@ -130,9 +135,10 @@ main section .visor div:nth-child(4) div{
 main section .visor div:nth-child(4) p{
    display: block;
    width: 80%;
-   margin-top: .6em;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px 2px black;
+   margin-top: 1.2em;
+   border-radius: 5px;
+   
+ 
    
 }
 
@@ -168,4 +174,16 @@ main section footer button{
 main section footer button:hover{
     opacity: 80%;
    background-color:  green;
+}
+
+main section:last-child{
+    position: absolute;
+    height: 58%;
+    top: 32%;
+    border: 4px solid black;
+   
+}
+
+.mover_tapa{
+    transform: translateY(95%);
 }
